@@ -1,0 +1,138 @@
+{
+	"prashantamoli": {
+		"fullname": "Prashant Amoli",
+		"roles": ["Software", "Full Stack", "Blockchain", "Web", "Web3", "Frontend", "Backend", "Mobile App"],
+		"about": "Software Developer",
+		"resume": "https://drive.google.com/drive/folders/1j7liY3NW0UrCiT83YhFJboPzetCKKiJI?usp=sharing",
+		"socials": {
+			"github": "prashantamoli",
+			"leetcode": "prashantamoli",
+			"linkedin": "prashantamoli",
+			"email": "prashantamoli2621@gmail.com",
+			"codechef": "",
+			"codeforces": "",
+			"gfg": ""
+		},
+		"skills": [
+			"React",
+			"Redux",
+			"Node",
+			"Next",
+			"JavaScript",
+			"TypeScript",
+			"Express",
+			"Git",
+			"GitHub",
+			"MongoDB",
+			"HTML&CSS",
+			"TailwindCSS",
+			"MaterialUI",
+			"Solidity",
+			"Blockchain",
+			"Truffle",
+			"Hardhat",
+			"Web3",
+			"Ethers",
+			"PWA",
+			"SQL",
+			"C/C++"
+		],
+		"experience": [
+			{
+				"company": "IEEE",
+				"companyLink": "",
+				"position": "Intern",
+				"description": [
+					"Developed a PWA to securely store and access medical records of patients on an Ethereum Blockchain.",
+					"Developed a responsive UI with form validation, custom modal, and PDF upload on IPFS using Web3.storage.",
+					"Implemented transaction of data between Solidity smart contracts and clients using Web3.js."
+				],
+				"startDate": "2023-02-02",
+				"endDate": "2023-09-09"
+			},
+			{
+				"company": "The Sparks Foundation",
+				"companyLink": "",
+				"position": "Web Development Intern",
+				"description": [
+					"Developed a Basic Banking System full-stack web application using HTML, CSS, PHP, and MySQL.",
+					"Integrated a payment gateway and stored transaction record for users."
+				],
+				"startDate": "2023-02-02",
+				"endDate": "2023-09-09"
+			}
+		],
+		"projects": [
+			{
+				"id": 1,
+				"title": "Project1",
+				"technologies": ["react", "redux", "node js", "firebase"],
+				"githubLink": "",
+				"link": "",
+				"description": [
+					"Developed a PWA to securely store and access medical records of patients on an Ethereum Blockchain.",
+					"Developed a responsive UI with form validation, custom modal, and PDF upload on IPFS using Web3.storage.",
+					"Implemented transaction of data between Solidity smart contracts and clients using Web3.js."
+				],
+				"startDate": "2023-02-02",
+				"endDate": "2023-09-09",
+				"screenshots": []
+			},
+			{
+				"id": 2,
+				"title": "Face Recognition Attendance System",
+				"technologies": ["React", "Redux", "Node", "Firebase"],
+				"githubLink": "https://github.com/prashantamoli/face-recognition-attendance-system",
+				"link": "",
+				"description": [
+					"Developed an app for automated attendance by recognizing faces from firebase storage with 85% accuracy.",
+					"Ensured accuracy by reading data of multiple facial expressions to make face data for database and recognition.",
+					"Implemented face recognition using FaceApi.js library built on top of Tensorflow.js"
+				],
+				"startDate": "2023-02-02",
+				"endDate": "2023-09-09",
+				"screenshots": []
+			},
+			{
+				"id": 3,
+				"title": "MERNChat",
+				"technologies": ["React", "Redux", "Node", "Firebase"],
+				"githubLink": "https://github.com/prashantamoli/MERNChat",
+				"link": "https://mern-chat-web-app.netlify.app/",
+				"description": [
+					"Developed a RTC real-time communication app using web sockets (socket.io).",
+					"Developed a REST API using Express server for authentication and JWT authorization.",
+					"Stored the user information and messages in Mongo DB atlas."
+				],
+				"startDate": "2023-02-02",
+				"endDate": "2023-09-09",
+				"screenshots": []
+			},
+			{
+				"id": 4,
+				"title": "YouTube Clone",
+				"technologies": ["React", "Redux", "Node", "Firebase"],
+				"githubLink": "https://github.com/prashantamoli/DevTube",
+				"link": "https://devtube-youtube.netlify.app",
+				"description": [
+					"Developed a UI clone of YouTube using React, Next, and Tailwind.",
+					"Integrated YouTube API using Context API and reducer functions for state management and playback."
+				],
+				"startDate": "2023-02-02",
+				"endDate": "2023-09-09",
+				"screenshots": []
+			},
+			{
+				"id": 5,
+				"title": "",
+				"technologies": ["React", "Redux", "Node", "Firebase"],
+				"githubLink": "",
+				"link": "",
+				"description": [],
+				"startDate": "2023-02-02",
+				"endDate": "2023-09-09",
+				"screenshots": []
+			}
+		]
+	}
+}
