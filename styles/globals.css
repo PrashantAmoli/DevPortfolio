@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	/* My custom experimental text classes */
+	.text-h1 {
+		@apply text-white font-extrabold text-3xl sm:text-4xl break-words leading-loose tracking-wide;
+	}
+	.text-h2 {
+		@apply text-white font-bold text-2xl sm:text-3xl break-words leading-loose tracking-wide;
+	}
+	.text-h3 {
+		@apply text-white font-bold text-xl sm:text-2xl break-words leading-loose tracking-wide;
+	}
+	.text-h3 {
+		@apply text-white font-bold text-xl break-words leading-loose tracking-wide;
+	}
+	.text-h4 {
+		@apply text-white font-bold text-lg break-words leading-loose tracking-wide;
+	}
+
+	.text-head {
+		@apply text-white font-bold text-xl break-words;
+	}
+	.text-subhead {
+		@apply text-white font-bold text-lg break-words;
+	}
+	.text-body {
+		@apply text-white font-bold text-sm break-words;
+	}
+	.text-small {
+		@apply text-white font-bold text-xs break-words;
+	}
+	.text-link {
+		@apply text-white font-bold text-sm transition-colors duration-300 ease-in-out break-words;
+	}
+
+	.gridbox {
+		@apply grid grid-cols-1 gap-4;
+	}
+	.flexbox {
+		@apply flex sm:flex-col flex-wrap justify-around items-center;
+	}
+
+	.card {
+		@apply flex flex-col gap-4 backdrop-blur-sm rounded-lg shadow-sm hover:shadow-lg  hover:shadow-white/50 px-4 sm:p-7 w-11/12 sm:w-6/12;
+	}
+
+	.btn {
+		@apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+	}
+	.btn-icon {
+		@apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+	}
+}

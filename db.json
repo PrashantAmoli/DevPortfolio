@@ -1,18 +1,18 @@
 {
 	"prashantamoli": {
+		"username": "prashantamoli",
 		"fullname": "Prashant Amoli",
-		"roles": ["Software", "Full Stack", "Blockchain", "Web", "Web3", "Frontend", "Backend", "Mobile App"],
+		"email": "prashantamoli2621@gmail.com",
 		"about": "Software Developer",
-		"resume": "https://drive.google.com/drive/folders/1j7liY3NW0UrCiT83YhFJboPzetCKKiJI?usp=sharing",
-		"socials": {
-			"github": "prashantamoli",
-			"leetcode": "prashantamoli",
-			"linkedin": "prashantamoli",
-			"email": "prashantamoli2621@gmail.com",
-			"codechef": "",
-			"codeforces": "",
-			"gfg": ""
-		},
+		"images": ["https://avatars.githubusercontent.com/u/56023742?v=4", "https://avatars.githubusercontent.com/u/56023742?v=4"],
+		"roles": ["Software", "Full Stack", "Blockchain", "Web", "Web3", "Frontend", "Backend", "Mobile App"],
+		"links": [
+			{ "name": "GitHub", "link": "https://github.com/prashantamoli" },
+			{ "name": "LeetCode", "link": "https://leetcode.com/prashantamoli" },
+			{ "name": "LinkedIn", "link": "https://www.linkedin.com/in/prashantamoli" },
+			{ "name": "Email", "link": "prashantamoli2621@gmail.com" },
+			{ "name": "Resume", "link": "https://drive.google.com/drive/folders/1j7liY3NW0UrCiT83YhFJboPzetCKKiJI?usp=sharing" }
+		],
 		"skills": [
 			"React",
 			"Redux",
@@ -47,8 +47,8 @@
 					"Developed a responsive UI with form validation, custom modal, and PDF upload on IPFS using Web3.storage.",
 					"Implemented transaction of data between Solidity smart contracts and clients using Web3.js."
 				],
-				"startDate": "2023-02-02",
-				"endDate": "2023-09-09"
+				"start": "2023-02-02",
+				"end": "2023-09-09"
 			},
 			{
 				"company": "The Sparks Foundation",
@@ -58,80 +58,90 @@
 					"Developed a Basic Banking System full-stack web application using HTML, CSS, PHP, and MySQL.",
 					"Integrated a payment gateway and stored transaction record for users."
 				],
-				"startDate": "2023-02-02",
-				"endDate": "2023-09-09"
+				"start": "2023-02-02",
+				"end": "2023-09-09"
 			}
 		],
 		"projects": [
 			{
 				"id": 1,
-				"title": "Project1",
-				"technologies": ["react", "redux", "node js", "firebase"],
-				"githubLink": "",
-				"link": "",
+				"title": "Medikeeper",
+				"technologies": ["React", "Next JS", "Metamask", "Solidity", "Truffle", "Web3.js", "Ethereum Blockchain"],
+				"github": "https://github.com/prashantamoli/Medikeeper",
+				"link": "https://medikeeper.vercel.app",
 				"description": [
 					"Developed a PWA to securely store and access medical records of patients on an Ethereum Blockchain.",
 					"Developed a responsive UI with form validation, custom modal, and PDF upload on IPFS using Web3.storage.",
 					"Implemented transaction of data between Solidity smart contracts and clients using Web3.js."
 				],
-				"startDate": "2023-02-02",
-				"endDate": "2023-09-09",
-				"screenshots": []
+				"start": "2023-02-02",
+				"end": "2023-09-09",
+				"images": []
 			},
 			{
 				"id": 2,
 				"title": "Face Recognition Attendance System",
 				"technologies": ["React", "Redux", "Node", "Firebase"],
-				"githubLink": "https://github.com/prashantamoli/face-recognition-attendance-system",
+				"github": "https://github.com/prashantamoli/face-recognition-attendance-system",
 				"link": "",
 				"description": [
 					"Developed an app for automated attendance by recognizing faces from firebase storage with 85% accuracy.",
 					"Ensured accuracy by reading data of multiple facial expressions to make face data for database and recognition.",
 					"Implemented face recognition using FaceApi.js library built on top of Tensorflow.js"
 				],
-				"startDate": "2023-02-02",
-				"endDate": "2023-09-09",
-				"screenshots": []
+				"start": "2023-02-02",
+				"end": "2023-09-09",
+				"images": []
 			},
 			{
 				"id": 3,
 				"title": "MERNChat",
 				"technologies": ["React", "Redux", "Node", "Firebase"],
-				"githubLink": "https://github.com/prashantamoli/MERNChat",
+				"github": "https://github.com/prashantamoli/MERNChat",
 				"link": "https://mern-chat-web-app.netlify.app/",
 				"description": [
 					"Developed a RTC real-time communication app using web sockets (socket.io).",
 					"Developed a REST API using Express server for authentication and JWT authorization.",
 					"Stored the user information and messages in Mongo DB atlas."
 				],
-				"startDate": "2023-02-02",
-				"endDate": "2023-09-09",
-				"screenshots": []
+				"start": "2023-02-02",
+				"end": "2023-09-09",
+				"images": []
 			},
 			{
 				"id": 4,
 				"title": "YouTube Clone",
 				"technologies": ["React", "Redux", "Node", "Firebase"],
-				"githubLink": "https://github.com/prashantamoli/DevTube",
+				"github": "https://github.com/prashantamoli/DevTube",
 				"link": "https://devtube-youtube.netlify.app",
 				"description": [
 					"Developed a UI clone of YouTube using React, Next, and Tailwind.",
 					"Integrated YouTube API using Context API and reducer functions for state management and playback."
 				],
-				"startDate": "2023-02-02",
-				"endDate": "2023-09-09",
-				"screenshots": []
+				"start": "2023-02-02",
+				"end": "2023-09-09",
+				"images": []
 			},
 			{
 				"id": 5,
 				"title": "",
 				"technologies": ["React", "Redux", "Node", "Firebase"],
-				"githubLink": "",
+				"github": "",
 				"link": "",
 				"description": [],
-				"startDate": "2023-02-02",
-				"endDate": "2023-09-09",
-				"screenshots": []
+				"start": "2023-02-02",
+				"end": "2023-09-09",
+				"images": []
+			}
+		],
+		"education": [
+			{
+				"school": "Graphic Era Hill University",
+				"location": "Dehradun, India",
+				"degree": "B.Tech",
+				"field": "Computer Science and Engineering",
+				"start": "2023-02-02",
+				"end": "2023-09-09"
 			}
 		]
 	}

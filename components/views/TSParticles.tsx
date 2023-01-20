@@ -25,7 +25,7 @@ export default function TSParticles() {
         loaded={particlesLoaded}
         //@ts-expect-error
         options={{...triangleParticles}}
-        className="fixed inset-0 z-0"
+        className="fixed inset-0 -z-10"
       />
   )
 }
