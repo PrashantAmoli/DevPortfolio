@@ -5,7 +5,7 @@ export default function ProjectCard({ project }: { project: Project }) {
 	const { title, description, technologies, link, github } = project;
 
 	return (
-		<div className="card">
+		<div className="flex flex-col gap-2 p-2 sm:p-6 rounded-lg w-4/5 break-words">
 			<h2 className="text-head">{title}</h2>
 
 			<ol>
@@ -18,7 +18,7 @@ export default function ProjectCard({ project }: { project: Project }) {
 
 			<ol>
 				{description.map((tech: string, index: Key) => (
-					<li key={index} className="text-body">
+					<li key={index} className="text-body break-words">
 						{tech}{' '}
 					</li>
 				))}

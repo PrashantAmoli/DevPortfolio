@@ -2,6 +2,8 @@
 const nextConfig = {
 	reactStrictMode: true,
 	images: {
+		dangerouslyAllowSVG: true,
+		domains: ['res.cloudinary.com', 'asset.cloudinary.com'],
 		remotePatterns: [
 			{
 				protocol: 'https',
@@ -11,9 +13,15 @@ const nextConfig = {
 			},
 			{
 				protocol: 'https',
-				hostname: 'https://res.cloudinary.com',
+				hostname: 'res.cloudinary.com',
 				port: '',
-				pathname: '/dtaakwnul/image/upload/v1671902542/ProjectDec22/**', // dp_hi22uf.jpg
+				pathname: '/dtaakwnul/image/upload/v1674251078/Portfolio/**', // dp_hi22uf.jpg
+			},
+			{
+				protocol: 'https',
+				hostname: 'asset.cloudinary.com',
+				port: '',
+				pathname: '/dtaakwnul/**',
 			},
 			{
 				protocol: 'https',

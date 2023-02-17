@@ -4,7 +4,7 @@ import { GetStaticProps } from 'next'
 import axios from 'axios'
 import { useSelector, useDispatch } from 'react-redux'
 import { updatePortfolio } from '@/context/actions'
-import { Intro, WordCloud, ScreenLayout, HorizontalScroll, ProjectCard, ExperienceCard, EducationCard } from '@/components'
+import { Intro, WordCloud, ScreenLayout, Carousel, ProjectCard, ExperienceCard, EducationCard, Timeline } from '@/components'
 
 import Portfolio from "utils/types"
 import Image from 'next/image'
@@ -37,14 +37,23 @@ const Home: FC <Portfolio> = (props) => {
           <WordCloud skills={skills}/>
         </ScreenLayout>
 
+        <ScreenLayout>
+          <Timeline experience={experience} education={education} />
+        </ScreenLayout>
+
         {/* Projects */}
         <ScreenLayout>
-          <HorizontalScroll>
-            {projects.map((project, index: Key) => (
-              <ProjectCard key={index} project={project} />
-            ))}
-          </HorizontalScroll>
+          <Carousel slides={projects} options={{ loop: false }}/>
         </ScreenLayout>
+
+        {/* <ScreenLayout>
+            {projects.map((project, index: Key) => (
+              <div key={index} className="flex-shrink-0 flex-grow-0 basis-full min-w-0 bg-white/20">
+                <ProjectCard project={project} />
+              </div>
+            ))}
+        </ScreenLayout> */}
+
 
         {/* Experience */}
         <ScreenLayout>
@@ -69,7 +78,9 @@ export default Home;
 
 // SSG 
 export async function getStaticProps() {
-  const res = await axios.get('http://localhost:3001/prashantamoli/')
+  // const url = process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3001';
+  const url = process.env.BASE_URL;
+  const res = await axios.get(`${url}/api/prashantamoli`)
   const data = await res.data
   return {
     props: data

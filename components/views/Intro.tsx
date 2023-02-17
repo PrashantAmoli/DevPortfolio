@@ -29,7 +29,7 @@ export default function Intro({ fullname, about, images, links, roles }) {
 	return (
 		<>
 		{/* Image */}
-		<svg viewBox="0 0 200 187" className='w-64 sm:w-80' xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink">
+		<svg viewBox="0 0 200 187" className='w-56 sm:w-72' xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink">
 				<mask id="mask0" mask-type="alpha">
 						<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
 						130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
@@ -49,7 +49,7 @@ export default function Intro({ fullname, about, images, links, roles }) {
 		<section className='card'>
 			<span className='text-h1'>Hey there, </span> 
 			<span className='inline-flex tracking-wide text-h1 sm:text-center'>
-				I&apos;m &nbsp;
+				I&apos;m&nbsp;
 			<Typewriter
 				options={{
 					strings: [fullname, ""],
@@ -59,7 +59,7 @@ export default function Intro({ fullname, about, images, links, roles }) {
 					skipAddStyles: true,
 					delay: 100,
 					deleteSpeed: 50,
-					wrapperClassName: 'text-head sm:text-3xl',
+					wrapperClassName: 'text-head text-3xl sm:text-4xl',
 					cursorClassName: 'hidden',
 				}}
 				/>
@@ -79,14 +79,14 @@ export default function Intro({ fullname, about, images, links, roles }) {
 			/>
 			<h2 className='text-subhead'>{about}</h2>
 
-			<div className='flex justify-evenly'>
+			<div className='flex justify-between sm:justify-evenly'>
 				{links.map((item: Links, index: string | number) => (
 					<a
 						key={index}
 						href={
 							item.link.includes('https://')
 								? item.link
-								: `https://${item.link}`
+								: `${item.link}`
 						}
 						target='_blank'
 						rel='noreferrer'
@@ -120,10 +120,10 @@ export default function Intro({ fullname, about, images, links, roles }) {
 		
 		{/* Links */}
 		
-		<div className='absolute left-0 flex flex-col gap-5 select-none top-1/3'>
+		<div className='absolute left-0 flex flex-col gap-5 select-none top-24 sm:top-1/3 transition-all'>
 			{links.map((link: Links, index: string | number) => (link.name !== '') && (
 
-			<a key={index} href={link.link} target="_blank" rel='noreferrer' className="inline-flex items-center justify-end gap-6 p-1 pl-2 transition-transform -translate-x-16 rounded-full select-none sm:-translate-x-12 hover:translate-x-2 hover:duration-500 hover:gap-1 w-28 group text-link hover:bg-gray-500/10">
+			<a key={index} href={link.link} target="_blank" rel='noreferrer' className="inline-flex items-center justify-end gap-6 p-1 pl-2 transition-transform -translate-x-16 rounded-full select-none sm:-translate-x-12 hover:translate-x-2 hover:duration-700 hover:gap-1 w-28 group text-link hover:bg-gray-500/10">
 				{link.name}	
 				<Image
 					src={`/${link.name.toLowerCase()}.svg`}

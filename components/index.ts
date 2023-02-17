@@ -6,6 +6,7 @@ import Intro from './views/Intro';
 import ProjectCard from './cards/ProjectCard';
 import EducationCard from './cards/EducationCard';
 import ExperienceCard from './cards/ExperienceCard';
-import HorizontalScroll from './layouts/HorizontalScroll';
+import Carousel from './layouts/Carousel';
+import Timeline from './cards/Timeline';
 
-export { TSParticles, WordCloud, Intro, ScreenLayout, HorizontalScroll, ProjectCard, EducationCard, ExperienceCard };
+export { TSParticles, WordCloud, Intro, ScreenLayout, Carousel, ProjectCard, EducationCard, ExperienceCard, Timeline };

@@ -10,7 +10,7 @@
 			{ "name": "GitHub", "link": "https://github.com/prashantamoli" },
 			{ "name": "LeetCode", "link": "https://leetcode.com/prashantamoli" },
 			{ "name": "LinkedIn", "link": "https://www.linkedin.com/in/prashantamoli" },
-			{ "name": "Email", "link": "prashantamoli2621@gmail.com" },
+			{ "name": "Email", "link": "mailto:prashantamoli2621@gmail.com" },
 			{ "name": "Resume", "link": "https://drive.google.com/drive/folders/1j7liY3NW0UrCiT83YhFJboPzetCKKiJI?usp=sharing" }
 		],
 		"skills": [
@@ -47,8 +47,8 @@
 					"Developed a responsive UI with form validation, custom modal, and PDF upload on IPFS using Web3.storage.",
 					"Implemented transaction of data between Solidity smart contracts and clients using Web3.js."
 				],
-				"start": "2023-02-02",
-				"end": "2023-09-09"
+				"start": "2022-06-01",
+				"end": "2022-8-01"
 			},
 			{
 				"company": "The Sparks Foundation",
@@ -58,8 +58,8 @@
 					"Developed a Basic Banking System full-stack web application using HTML, CSS, PHP, and MySQL.",
 					"Integrated a payment gateway and stored transaction record for users."
 				],
-				"start": "2023-02-02",
-				"end": "2023-09-09"
+				"start": "2020-11-01",
+				"end": "2020-12-12"
 			}
 		],
 		"projects": [
@@ -76,7 +76,7 @@
 				],
 				"start": "2023-02-02",
 				"end": "2023-09-09",
-				"images": []
+				"images": ["https://res.cloudinary.com/dtaakwnul/image/upload/v1674251078/Portfolio/Medikeeper1_hkayex.png"]
 			},
 			{
 				"id": 2,
@@ -91,7 +91,7 @@
 				],
 				"start": "2023-02-02",
 				"end": "2023-09-09",
-				"images": []
+				"images": ["https://res.cloudinary.com/dtaakwnul/image/upload/v1674251169/Portfolio/fras1_icvrc5.png"]
 			},
 			{
 				"id": 3,
@@ -106,7 +106,7 @@
 				],
 				"start": "2023-02-02",
 				"end": "2023-09-09",
-				"images": []
+				"images": ["https://res.cloudinary.com/dtaakwnul/image/upload/v1674251106/Portfolio/MERNChatDemo1_fxka03.png"]
 			},
 			{
 				"id": 4,
@@ -120,18 +120,22 @@
 				],
 				"start": "2023-02-02",
 				"end": "2023-09-09",
-				"images": []
+				"images": ["https://res.cloudinary.com/dtaakwnul/image/upload/v1674251096/Portfolio/DevTube1_zhck4m.png"]
 			},
 			{
 				"id": 5,
-				"title": "",
-				"technologies": ["React", "Redux", "Node", "Firebase"],
-				"github": "",
-				"link": "",
-				"description": [],
+				"title": "NFT Commerce",
+				"technologies": ["React", "Next", "Tailwind CSS", "Redux", "Solidity", "Truffle", "Ethers JS"],
+				"github": "https://github.com/prashantamoli/NFTCommerce",
+				"link": "https://nftincommerce.vercel.app",
+				"description": [
+					"Decentralized maketplace",
+					"NFT for authenticity of products",
+					"Integrated a payment gateway and stored transaction record for users."
+				],
 				"start": "2023-02-02",
 				"end": "2023-09-09",
-				"images": []
+				"images": ["https://res.cloudinary.com/dtaakwnul/image/upload/v1674251151/Portfolio/NFTCommerceScreenshot_dsxjjw.png"]
 			}
 		],
 		"education": [
@@ -140,8 +144,8 @@
 				"location": "Dehradun, India",
 				"degree": "B.Tech",
 				"field": "Computer Science and Engineering",
-				"start": "2023-02-02",
-				"end": "2023-09-09"
+				"start": "2019-07-24",
+				"end": "2023-06-15"
 			}
 		]
 	}
